@@ -177,9 +177,6 @@ margin: 5px 0;
 }
 
 /* Meetup section */
-    #meetups{
-
-    }
 
     #times{
         display: flex;
@@ -204,6 +201,55 @@ margin: 5px 0;
         color:#fafafa;
     }
 
+    /* Meet up section */
+
+    #signup-main{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #signup{
+        padding: 20px 10%;
+        justify-content: center;
+        align-items: center;
+        background: url("../images/signup-image.webp") no-repeat center/cover;
+        background-position: 75%;
+        flex-grow: 1;
+    }
+
+    #signup-form{
+        color: #ffffff;
+        background-color: rgba(60, 60, 60, 0.6);
+        padding: 30px;
+    }
+
+    #signup h2{
+        color: #fafafa;
+    }
+    .text-input{
+        margin: 5px 0 20px;
+        padding: 0 5px;
+        height: 25px;
+        color: #fafafa;
+        background: transparent;
+        border: 1px solid #fafafa;
+        border-radius: 2px;
+    }
+    .radio-buttons{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .join-button{
+        margin-top: 20px;
+        padding: 15px 32px 15px;
+        border-radius: 2px;
+        background-color: #454b1b;
+        color:#fafafa;
+        font: 100%;
+    }
 /* Media query large or landscape phones (576px and up */
 @media screen and (min-width:576px){
     #photos {
