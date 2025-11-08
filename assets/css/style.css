@@ -229,5 +229,42 @@ margin: 5px 0;
     
     }
 
+
+
 }
     
+@media screen and (min-width: 1200px){
+ 
+       /* reason section
+    #benefit-physical,
+    #benefit-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefit-physical > div,
+    #benefit-mental > div {
+        width: 25%;
+    }
+    #benefit-mental > div{
+        text-align: end;
+        align-self: flex-end;
+        
+    } */
+    
+    #benefit{
+        display: flex;
+        margin: auto 10%;
+    }
+    #benefit-physical{
+        order:0
+    }
+    #benefit-image{
+        order: 1;
+    }
+    #benefit-mental{
+        order:2
+    }
+
+    
+}
